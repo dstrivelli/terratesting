@@ -1,0 +1,14 @@
+# AWS Setup
+
+	# Security Groups
+		- Define network rules for VPC access
+	# ALB
+		- Load balancer that will spread traffic to target group
+	# Target Group
+		- Receiving endpoint for ALB traffic
+	# LB Listener
+		- Mechanism that tells ALB to send traffic to target group
+	# Launch Configuration
+		- Template for launching instances in autoscaling group
+	# Autoscaling group
+		- Mechanism for deploying/terminating instances horizontally
